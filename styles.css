@@ -1,0 +1,31 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+
+}
+
+.hoveMe 
+{
+    background: none;
+    color: #ffa268;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.15s;
+}
+
+.hoveMe:hover
+{
+    border-color: yellow;
+    box-shadow: 0 0.6em 0.8em -0.7em yellow;
+    color: white;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+
+}
